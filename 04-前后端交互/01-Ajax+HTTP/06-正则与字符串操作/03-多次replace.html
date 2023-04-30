@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let str = "<div>{{name}}今年{{ age }}岁了</div>";
+      let pattern = /{{\s*([a-zA-Z]+)\s*}}/;
+
+      // 第一次匹配
+      let res1 = pattern.exec(str);
+      // 输出的结果：['{{name}}', 'name', index: 5, input: '<div>{{name}}今年{{ age }}岁了</div>', groups: undefined]
+      console.log(res1);
+      str = str.replace(res1[0], res1[1]); // replace函数返回值为替换后的新字符串
+      // 输出的内容是：<div>name今年{{ age }}岁了</div>
+      console.log(str);
+
+      // 第二次匹配
+      let res2 = pattern.exec(str);
+      // 输出的结果：['{{ age }}', 'age', index: 11, input: '<div>name今年{{ age }}岁了</div>', groups: undefined]
+      console.log(res2);
+      str = str.replace(res2[0], res2[1]); // replace函数返回值为替换后的新字符串
+      // 输出的内容是：<div>name今年age岁了</div>
+      console.log(str);
+    </script>
+  </body>
+</html>
