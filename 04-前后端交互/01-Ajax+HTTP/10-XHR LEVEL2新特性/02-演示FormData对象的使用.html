@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 1. 创建FormData实例
+      let fd = new FormData();
+      // 2. 调用append函数，向fd中追加数据
+      fd.append("uname", "zs");
+      fd.append("upwd", "123456");
+
+      let xhr = new XMLHttpRequest();
+      xhr.open("POST", "http://www.liulongbin.top:3006/api/formdata");
+      xhr.send(fd);
+
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          console.log(xhr.responseText);
+        }
+      };
+    </script>
+  </body>
+</html>

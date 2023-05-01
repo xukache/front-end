@@ -8,7 +8,24 @@
 </head>
 <body>
     <script>
+        let xhr = new XMLHttpRequest()
+
+        // 设置超时时间
+        xhr.timeout = 10
+        // 设置请求超时以后的处理函数
+        xhr.ontimeout = function () {
+            console.log('请求超时了');
+        }
+        xhr.open('GET', 'http://www.liulongbin.top:3006/api/getbooks')
+        xhr.send()
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log(xhr.responseText);
+            }
+        }
         
+
     </script>
 </body>
 </html>
