@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-04-30T12:59:02.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="ZUp8t_Hu7yCKdPKDZErP" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="hSRQ57T09YJk9QetQUsI">
+    <mxGraphModel dx="898" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
+          <mxGeometry x="170" y="200.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" parent="1" vertex="1">
+          <mxGeometry x="520" y="183" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;传输网页内容&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="324" y="183" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HTML&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="324" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;web&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ff0000&quot;&gt;服务器&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;用户的电脑(&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ff0000&quot;&gt;客户端&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1" source="7joMMJl2bfjmAcuTHPdV-2" target="7joMMJl2bfjmAcuTHPdV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="170" y="387.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-10" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;传输数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="370" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;XML&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="417" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;web&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ff0000&quot;&gt;服务器&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="457.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;用户的电脑(&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ff0000&quot;&gt;客户端&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#0066cc&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="457.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1" source="OCuoVQDo6dndJ8lhLVCE-10" target="OCuoVQDo6dndJ8lhLVCE-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="597" as="sourcePoint" />
+            <mxPoint x="410" y="547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

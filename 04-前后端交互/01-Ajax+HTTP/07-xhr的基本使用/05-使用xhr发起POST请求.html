@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 1. 创建xhr对象
+      let xhr = new XMLHttpRequest();
+      // 2. 调用open函数
+      xhr.open("POST", "http://www.liulongbin.top:3006/api/addbook");
+      // 3. 设置Content-Type属性
+      xhr.setRequestHeader("Content-Type", "applicaton/x-www-form-urlencoded");
+      // 4. 调用send函数
+      xhr.send("bookname=java指南&author=施耐庵&publisher=上海图书出版社");
+      // 5. 监听事件
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          console.log(xhr.responseText);
+        }
+      };
+    </script>
+  </body>
+</html>
