@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <button id="btnJSONP">发起JSONP数据请求</button>
+
+    <script>
+      $(function () {
+        $("#btnJSONP").on("click", function () {
+          $.ajax({
+            url: "http://www.liulongbin.top:3006/api/jsonp?address=湖北&location=武汉",
+            dataType: "jsonp",
+            jsonpCallback: "abc",
+            success: function (res) {
+              console.log(res);
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

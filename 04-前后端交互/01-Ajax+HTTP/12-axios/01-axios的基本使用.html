@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 导入axios库 -->
+    <script src="./js/axios.min.js"></script>
+  </head>
+  <body>
+    <button id="btn1">发起GET请求</button>
+    <button id="btn2">发起POST请求</button>
+    <button id="btn3">直接使用axios发起GET请求</button>
+    <button id="btn4">直接使用axios发起POST请求</button>
+
+    <script>
+      // axios发起GET请求
+      document.querySelector("#btn1").addEventListener("click", function () {
+        let url = "http://www.liulongbin.top:3006/api/get";
+        let paramsObj = { name: "zs", age: 20 };
+        axios.get(url, { params: paramsObj }).then(function (res) {
+          // res.data是服务器返回的数据
+          let result = res.data;
+          console.log(res);
+          console.log(result);
+        });
+      });
+      // axios发起POST请求
+      document.querySelector("#btn2").addEventListener("click", function () {
+        let url = "http://www.liulongbin.top:3006/api/post";
+        let dataObj = { location: "湖北", address: "武汉" };
+        axios.post(url, dataObj).then(function (res) {
+          // res.data是服务器返回的数据
+          let result = res.data;
+          console.log(result);
+        });
+      });
+      // 直接使用axios发起GET请求
+      document.querySelector("#btn3").addEventListener("click", function () {
+        axios({
+          method: "GET",
+          url: "http://www.liulongbin.top:3006/api/get",
+          params: {
+            // GET参数要通过params属性提供
+            name: "zhangsan",
+            age: 20,
+          },
+        }).then(function (res) {
+          console.log(res.data);
+        });
+      });
+      // 直接使用axios发起POST请求
+      document.querySelector("#btn4").addEventListener("click", function () {
+        axios({
+          method: "POST",
+          url: "http://www.liulongbin.top:3006/api/post",
+          params: {
+            // POST数据要通过data属性提供
+            bookname: "程序员的自我修养",
+            price: 66,
+          },
+        }).then(function (res) {
+          console.log(res.data);
+        });
+      });
+    </script>
+  </body>
+</html>

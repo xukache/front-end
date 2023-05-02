@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-05-02T09:19:04.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="i8eCaZolz5sZhDuCEuBg" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="hSRQ57T09YJk9QetQUsI">
+    <mxGraphModel dx="911" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="610" y="187" width="150" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-6" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 16px;&quot;&gt;跨域请求可以正常发起&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="375" y="204" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7joMMJl2bfjmAcuTHPdV-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font color=&quot;#4d4d4d&quot;&gt;浏览器能正常接收&lt;br&gt;到跨域响应的数据&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="395" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#4d4d4d&quot;&gt;http://www.api.com/books&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="561" y="112.5" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-7" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 16px;&quot;&gt;浏览器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="75" y="144" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=default;rounded=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="173.5" width="221.5" height="221.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-3" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#B3B3B3;strokeColor=#23445d;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="115" y="204" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="OCuoVQDo6dndJ8lhLVCE-8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="252" as="sourcePoint" />
+            <mxPoint x="609" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-5" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;Ajax&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=#C73500;shadow=1;fontColor=#000000;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="134" y="232.5" width="95" height="111.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-4" value="&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 16px;&quot;&gt;网页&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99" y="188" width="150" height="33.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-8" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#4d4d4d&quot;&gt;http://www.test.com/index.html&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="81" y="124.5" width="250" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#4D4D4D;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608" y="308" as="sourcePoint" />
+            <mxPoint x="330" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-10" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;同&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;源&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;策&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px;&quot;&gt;略&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;align=center;fillColor=#0066CC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="268" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-11" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;exitX=0.427;exitY=0.991;exitDx=0;exitDy=0;strokeColor=#FF0000;exitPerimeter=0;entryX=1.023;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hS-vSNftExUew_PnmpHP-10" target="hS-vSNftExUew_PnmpHP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289.6399999999999" y="306.43000000000006" as="sourcePoint" />
+            <mxPoint x="241" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hS-vSNftExUew_PnmpHP-12" value="" style="shape=cross;whiteSpace=wrap;html=1;fillColor=#FF0000;rotation=-45;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="264.99" y="296.17" width="21.83" height="21.22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

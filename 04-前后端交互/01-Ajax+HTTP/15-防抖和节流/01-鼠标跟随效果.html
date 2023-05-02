@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 导入jQery库 -->
+    <script src="./js/jquery.js"></script>
+    <!-- 渲染UI结构 -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      #angel {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 定义UI结构 -->
+    <img src="./images/angel.gif" alt="" id="angel" />
+
+    <script>
+      $(function () {
+        // 1. 获取图片
+        let angel = $("#angel");
+        // 3. 预定义一个timer节流阀
+        let timer = null;
+        // 2. 绑定mousemove事件
+        $(document).on("mousemove", function (e) {
+          // 5. 判断节流阀是否为空，如果不为空，则证明距离上次执行间隔不足16毫秒
+          if (timer) {
+            return;
+          }
+          // 4. 开启定时器
+          timer = setTimeout(function () {
+            $(angel).css("top", `${e.pageY}px`).css("left", `${e.pageX}px`);
+            console.log("ok");
+            // 当设置了鼠标跟随效果后，清空timer节流阀，方便下次开启定时器
+            timer = null;
+          }, 16);
+        });
+      });
+    </script>
+  </body>
+</html>
