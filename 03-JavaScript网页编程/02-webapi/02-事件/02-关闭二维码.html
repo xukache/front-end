@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    i:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="erweima">
+    <img src="./images/code.png" alt="">
+    <i class="close_btn">x</i>
+  </div>
+  <script>
+    let close_btn = document.querySelector('.close_btn')
+    let erweima = document.querySelector('.erweima')
+
+    close_btn.addEventListener('click', function () {
+      erweima.style.display = 'none'
+    })
+  </script>
+  
+</body>
+</html>

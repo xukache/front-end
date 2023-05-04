@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/tianshi.gif" alt="">
+    <script>
+        let img = document.querySelector('img')
+        document.addEventListener('mousemove', function (e) {
+            img.style.left = e.pageX - 30 + 'px'
+            img.style.top = e.pageY - 40 + 'px'
+        })
+    </script>
+
+</body>
+</html>

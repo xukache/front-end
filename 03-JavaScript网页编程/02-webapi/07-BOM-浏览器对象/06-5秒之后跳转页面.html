@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://kachex.hzbmmc.com">支付成功，<span>5</span>秒之后自动跳转</a>
+    <script>
+        let a = document.querySelector('a')
+        let num = 5
+        let timer = setInterval(function () {
+            num--
+            a.innerHTML = `支付成功，<span>${num}</span>秒之后自动跳转`
+            if (num === 0) {
+                clearInterval(timer)
+                location.href = 'http://kachex.hzbmmc.com/'
+            }
+        }, 1000)
+
+    </script>
+
+</body>
+</html>

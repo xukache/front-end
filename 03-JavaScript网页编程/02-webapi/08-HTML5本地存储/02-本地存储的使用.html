@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // // localStorage.setItem('键', '值')
+    // localStorage.setItem('uname', 'xukai')
+    // //获取数据
+    // uname = localStorage.getItem('uname')
+    // console.log(uname)
+    // // 删除数据
+    // localStorage.removeItem('uname')
+
+    // 存储引用数据类型
+    let obj = {
+      uname: 'xukai',
+      age: 17, 
+      address: '湖北武汉'
+    }
+
+    // localStorage.setItem('obj', obj)
+    // 需要转换为json字符串在进行存储
+    localStorage.setItem('obj', JSON.stringify(obj))
+    // 读取是需要转化
+    // console.log(localStorage.getItem('obj'))
+    console.log(JSON.parse(localStorage.getItem('obj')))
+
+    // json 属性和值都是双引号进行包含
+    // let obj2 = {
+    //   "uname": "xukai",
+    //   "age": "17",
+    //   "address": "湖北武汉"
+    // }
+
+
+  </script>
+</body>
+</html>

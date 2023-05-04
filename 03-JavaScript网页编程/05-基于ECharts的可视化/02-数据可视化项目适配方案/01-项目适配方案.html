@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @media screen and (max-width: 1024px) {
+            html {
+                font-size: 42.66px !important;  /*提高指定样式规则的应用优先权（优先级）*/ 
+            }
+        }
+
+        @media screen and (min-width: 1920px) {
+            html {
+                font-size: 80px !important;
+            }
+        }
+        .box {
+            width: 200px;
+            height: 2.5rem;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+    <script src="../js/flexible.js"></script>
+    
+</body>
+</html>

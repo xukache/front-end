@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .box1 {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(6, 160, 6);
+    }
+
+    .box2 {
+      margin-top: 20px;
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+    <h3>01-内容操纵</h3>
+    <p>jquery中封装了设置和读取网页元素文本内容的方法</p>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+
+      // 1. 设置普通文本
+      $('.box1').html('xukai')
+      $('.box2').text('xukai')
+      // 2. 取值
+      console.log($('.box1').html()) 
+      console.log($('.box2').text()) 
+      // 3. 链式编程
+      let $box1 = $('.box1')
+      // let $res = $box1.html('<a href="#">xukai111</a>')
+      // console.log($box1 === $res)
+      // 设置时可以用链式编程
+      // $box1.html('<a href="#">xukai111</a>').click(function () {
+      //   console.log('你好啊')
+      // })
+       // 取值不可以
+      // $box1.html().click(function () {
+      //   console.log('你好啊')
+      // })
+    </script>
+  
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    function Person (uname, age) {
+      this.uname = uname
+      this.age = age
+      this.language = '汉语'
+      this.skin = 'yellow'
+    }
+
+    // // 原型对象
+    // Person.prototype.eat = function () {
+    //   console.log('吃饭')
+    // }
+
+    // Person.prototype.heshui = function () {
+    //   console.log('喝水')
+    // }
+
+    // // 实例化对象
+    // let obj = new Person('张飞', 22)
+    // console.log(obj)
+
+    function Chinese () {
+      this.head = 1
+      this.eyes = 2
+      this.language = '汉语'
+      this.skin = 'yellow'
+    }
+
+    function Japanese () {
+      this.head = 1
+      this.eyes = 2
+
+      this.language = '日语'
+      this.skin = 'yellow'
+    }
+
+    function English () {
+      this.head = 1
+      this.eyes = 2
+
+      this.language = '英语'
+      this.skin = 'white'
+    }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    function A () {}
+    function B () {}
+
+    let obj = new B()
+
+    // instanceof: 用于判断一个对象是否是另外一个构造函数的实例对象
+    // 对象 instanceof 构造函数
+
+    // console.log(obj instanceof A);  // false
+    
+    // constructor：指回构造函数本身
+    console.log(obj.constructor)
+  </script>
+</body>
+</html>

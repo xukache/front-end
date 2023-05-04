@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // let num = 1
+    // function f1 () {
+    //   let num = 2
+    //   function f2 () {
+    //     console.log(num)
+    //   }
+    //   f2()
+    // }
+    // f1()  // 2
+
+    // let num = 1
+    // function f1 () {
+    //   // 没声明 没有这个变量
+    //   num = 2
+    //   function f2 () {
+    //     num = 3
+    //   }
+    //   f2()
+    // }
+    // f1()
+    // console.log(num)  // 3
+
+    // let num = 1
+    // function f1 () {
+    //   // 没声明 没有这个变量
+    //   let num = 2
+    //   function f2 () {
+    //     num = 3
+    //   }
+    //   f2()
+    // }
+    // f1()
+    // console.log(num)  // 1
+
+    let num = 1
+    function f1 () {
+      // 没声明 没有这个变量
+      num = 2
+      function f2 () {
+        let num = 3
+      }
+      f2()
+    }
+    f1()  // f1 --> num --> let num = 1 --> num = 2 (f2函数声明的变量为局部变量)
+    console.log(num)  // 2
+
+  </script>
+</body>
+</html>

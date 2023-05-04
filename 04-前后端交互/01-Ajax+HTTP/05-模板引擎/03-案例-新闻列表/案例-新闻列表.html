@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/news.css" />
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/template-web.js"></script>
+  </head>
+  <body>
+    <div id="news-list"></div>
+
+    <script src="./js/news.js"></script>
+
+    <!-- 定义模板 -->
+    <script type="text/html" id="tpl-news">
+      <!-- 查看是否能获取到数据 -->
+      <!-- {{data.length}} -->
+      {{each data}}
+
+      <div class="news-item">
+        <img
+          class="thumb"
+          src="{{'http://www.liulongbin.top:3006'+$value.img}}"
+          alt=""
+        />
+        <div class="right-box">
+          <h1 class="title">{{$value.title}}</h1>
+          <div class="tags">
+            <!-- tags数组 -->
+            {{each $value.tags}}
+            <!-- 数组中的每个tag -->
+            <span>{{$value}}</span>
+            {{/each}}
+          </div>
+          <div class="footer">
+            <div>
+              <span>{{$value.source}}</span>&nbsp;&nbsp;
+              <span>{{$value.time | dateFormat}}</span>
+            </div>
+            <span>评论数：{{$value.cmtcount}}</span>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </script>
+  </body>
+</html>

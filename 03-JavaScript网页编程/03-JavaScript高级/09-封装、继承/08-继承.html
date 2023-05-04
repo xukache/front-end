@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  // 构造函数
+    function Person() {
+      this.head = 1
+      this.eyes = 2
+      this.legs = 2
+
+      this.say = function () {console.log('sya')}
+      this.eat = function () {console.log('eat')}
+    }
+
+    function Chinese () {
+      this.language = '汉语'
+      this.skin = 'yellow'
+    }
+
+    // 继承：
+    // 把对象赋值给原型对象
+    Chinese.prototype = new Person ()
+    // 指回构造函数本身
+    Chinese.prototype.constructor = Chinese
+
+    // 实例对象
+    let c1 = new Chinese()
+    console.log(c1)
+
+
+    function Japanese () {
+      this.language = '日语'
+      this.skin = 'yellow'
+    }
+
+    Japanese.prototype = new Person()
+    Japanese.prototype.constructor = Japanese
+
+    let j1 = new Japanese()
+    console.log(j1)
+
+
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // let arr = [1, 2, 3]
+    // console.log(arr)
+    // console.log(Array.prototype)
+
+    let arr = [1, 2, 3]
+
+    Array.prototype.sum = function () {
+      let he = 0
+
+      for (let i = 0; i < this.length; i++) {
+        he = he +this[i]
+      }
+
+      return he
+    }
+
+    console.log(arr.sum()) 
+
+  </script>
+</body>
+</html>

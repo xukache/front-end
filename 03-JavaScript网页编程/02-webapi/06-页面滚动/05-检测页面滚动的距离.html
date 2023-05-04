@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    // console.log(document.documentElement)  // 得到的是整个html
+    window.addEventListener('scroll', function () {
+        console.log(document.documentElement.scrollTop)
+        document.documentElement.scrollTop = 500  // 页面滚动距离头部的距离
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<mxfile host="Electron" modified="2023-04-26T09:07:04.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="QXOSm1iE0YJ_g8sIKjpE" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="S140JFY5v2G2kNeAsNvO">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ervmk5x926SjJkbawLvt-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=link;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ervmk5x926SjJkbawLvt-1" target="ervmk5x926SjJkbawLvt-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="215" />
+              <mxPoint x="228" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="88" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模板结构&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="88" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HTML页面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="ervmk5x926SjJkbawLvt-6" target="ervmk5x926SjJkbawLvt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模板引擎&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" target="ervmk5x926SjJkbawLvt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

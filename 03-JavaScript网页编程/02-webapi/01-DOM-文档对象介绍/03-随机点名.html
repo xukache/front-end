@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border: 2px solid pink;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 30px;
+    }
+  </style>
+</head>
+<body>
+  抽中的选手：<div></div>
+  
+</body>
+<script>
+  function getRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
+  }
+
+  let arr = ['马超', '赵云', '黄忠', '关羽', '张良', '刘备', '张飞']
+
+  let random = getRandom(0, arr.length - 1)
+  let box = document.querySelector('div')
+  console.log(random)
+  box.innerText = arr[random]
+
+  arr.splice(random, 1)
+  console.log(arr)
+
+
+
+</script>
+</html>

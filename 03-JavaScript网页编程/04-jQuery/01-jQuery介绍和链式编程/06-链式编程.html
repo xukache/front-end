@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>06-链式编程</h3>
+    <p>链式编程 通过点(.)把多个操作连续的写下去，形成和链子一样的结构</p>
+    <input type="text" class="text" />
+
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+      // 为输入框分别绑定 获得焦点 失去焦点事件
+      // $('.text').focus(function () {
+      //   $('.text').css('backgroundColor', 'pink')
+      // })
+      // $('.text').blur(function () {
+      //   $('.text').css('backgroundColor', '')
+      // })
+      // 使用链式编程一次性绑定 获得焦点 失去焦点 内容改变事件
+      $(".text")
+        .focus(function () {
+          $(".text").css("backgroundColor", "pink");
+        })
+        .blur(function () {
+          $(".text").css("backgroundColor", "");
+        })
+        .change(function () {
+          console.log("改变");
+        });
+      // 测试jquery方法的返回值
+      // let $text = $('.text')
+      // let $text2 = $text
+      //   .focus(function () {
+      //     $(".text").css("backgroundColor", "pink");
+      //   })
+      // console.log($text === $text2)
+    </script>
+  </body>
+</html>

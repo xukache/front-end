@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>post向服务器提交数据</title>
+  <script src="./js/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <button id="btnPOST">post向服务器提交数据</button>
+
+  <script>
+    $(function () {
+      $('#btnPOST').on('click', function () {
+        $.post('http://www.liulongbin.top:3006/api/addbook', {bookname: 'nihao啊', author: 'csss', publisher: 'er出版社'}, function (res) {
+          console.log(res)
+        })
+      })
+    })
+  </script>
+</body>
+</html>

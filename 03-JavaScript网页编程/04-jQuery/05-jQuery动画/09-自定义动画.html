@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0 30px;
+      height: 2000px;
+      width: 2000px;
+    }
+
+    p {
+      color: #333;
+    }
+
+    .container {
+      width: 400px;
+      height: 400px;
+      background-color: skyblue;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: yellowgreen;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <h3>09-自定义动画</h3>
+  <p>
+    jquery提供了animate方法来实现更为复杂的动画效果
+  </p>
+
+  <div class="container">
+    <div class="box"></div>
+  </div>
+  <button class="custom">自定义动画</button>
+  <script src="./jquery/jquery-3.5.1.min.js"></script>
+  <script>
+
+    // 自定义动画
+    $('.custom').click(function () {
+      $('html').animate({
+        scrollTop: 200,
+        scrollLeft: 200
+      })
+      // $('.box').animate({
+      //   // height: '100%'
+      //   // width: 150,
+      //   // height: 150,
+      //   // marginLeft: 100,
+      //   // top: 100,
+      //   // backggroundColor: 'orange'
+      // }, 2000)
+    })
+  </script>
+</body>
+</html>

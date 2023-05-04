@@ -1,0 +1,59 @@
+<mxfile host="Electron" modified="2023-04-25T05:42:45.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="jg8XHA8M30JbNYGxqEce" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="UHtSpR9IC_FXIQfQnc5V">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.user_male;" parent="1" vertex="1">
+          <mxGeometry x="60" y="215" width="64" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" parent="1" vertex="1">
+          <mxGeometry x="620" y="215" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-6" value="" style="group;fillColor=#FFFFFF;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="200" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document_blank;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="YaG_1TBnuGS9j93xaT1G-6" vertex="1">
+          <mxGeometry width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据载体&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontFamily=Helvetica;" parent="YaG_1TBnuGS9j93xaT1G-6" vertex="1">
+          <mxGeometry y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-5" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;Ajax&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=36;fillStyle=auto;fillColor=#FE801F;strokeColor=none;" parent="YaG_1TBnuGS9j93xaT1G-6" vertex="1">
+          <mxGeometry x="15" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=14;jumpSize=16;strokeWidth=4;" parent="1" source="YaG_1TBnuGS9j93xaT1G-1" target="YaG_1TBnuGS9j93xaT1G-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="340" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;交互&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YaG_1TBnuGS9j93xaT1G-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.1397" relative="1" as="geometry">
+            <mxPoint x="13" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fillColor=#dae8fc;fontSize=14;jumpSize=16;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YaG_1TBnuGS9j93xaT1G-5" target="YaG_1TBnuGS9j93xaT1G-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaG_1TBnuGS9j93xaT1G-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;发起&lt;font color=&quot;#ff0000&quot;&gt;GET&lt;/font&gt;数据请求&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YaG_1TBnuGS9j93xaT1G-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1397" relative="1" as="geometry">
+            <mxPoint x="23" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_LfNk5zzKTtyTmPajw0u-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;希望从服务器&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ff0000&quot;&gt;获取数据&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="136" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LfNk5zzKTtyTmPajw0u-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;响应GET请求&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LfNk5zzKTtyTmPajw0u-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;处理请求&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

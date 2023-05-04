@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    /*
+      function fn () {
+      console.log(n)
+      var n = 2
+      }
+    */
+
+    // function fn () {
+    //   // let n 没有初始化之前不让使用
+    //   // 死区
+    //   console.log(n)
+    //   let n = 2
+    // }
+    // fn()  // 19  Uncaught ReferenceError: Cannot access 'n' before initialization
+
+    function fun () {
+      console.log(num)
+      let num = 123  // 没赋值前不可使用
+    }
+  </script>
+  
+</body>
+</html>

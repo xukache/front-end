@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    function Star (uname, age) {
+      this.uname = uname
+      this.age = age
+      this.sing = function () {
+        console.log('唱歌')
+      }
+    }
+
+    let o1 = new Star('刘德华', 22)
+    console.log(o1)
+
+    let o2 = new Star('周杰伦', 21)
+    console.log(o2)
+  </script>
+</body>
+</html>

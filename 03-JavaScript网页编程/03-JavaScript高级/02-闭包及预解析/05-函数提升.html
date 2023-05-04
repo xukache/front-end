@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 任何一个作用域在执行之前都需要预解析
+    // 内存：
+    /*
+      function fn () {
+      console.log(1)
+      }
+      function fun () {
+      console.log(2)
+      }
+    */
+
+    // 预解析：
+    // 函数提升：
+
+    // 函数：
+      // 会把代码中具有名字的函数提前解析，解析到当前作用域最前面
+      // 但是 只定义 不掉用
+      // 函数优先
+      // 函数表达式不存在提升的现象
+      // 只在当前作用域进行提升
+
+    function fn () {
+      console.log(1)
+    }
+
+    fn()
+
+    function fun () {
+      console.log(2)
+    }
+
+    fun()
+
+    (function () {
+      console.log(3)
+    })
+
+  </script>
+  
+</body>
+</html>

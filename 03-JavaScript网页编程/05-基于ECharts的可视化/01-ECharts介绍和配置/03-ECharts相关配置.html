@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 1000px;
+            height: 600px;
+            background-color: rgb(254, 254, 254);
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+
+<script src="../js/echarts.min.js"></script>
+<script>
+    let myChart = echarts.init(document.querySelector('.box'))
+    let option = {
+        title: {
+            text: '网站访问来源-堆积折线图'  // 主标题
+        },
+        tooltip: {
+            trigger: 'item'
+        },
+        legend: {
+            data: ['邮件', '工会广告', '视频广告', '直接', '搜索引擎']
+        },
+        grid: {
+            left: '0%',
+            right: '1%',
+            bottom: '5%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {},
+                restore: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [
+            {
+                name: '邮件',
+                type: 'line',
+                stack: 'Total',
+                data: [120, 132, 101, 134, 90, 230, 210]
+            },
+            {
+                name: '工会广告',
+                type: 'line',
+                stack: 'Total',
+                data: [220, 182, 191, 234, 290, 330, 310]
+            },
+            {
+                name: '视频广告',
+                type: 'line',
+                stack: 'Total',
+                data: [150, 232, 201, 154, 190, 330, 410]
+            },
+            {
+                name: '直接',
+                type: 'line',
+                stack: 'Total',
+                data: [320, 332, 301, 334, 390, 330, 320]
+            },
+            {
+                name: '搜索引擎',
+                type: 'line',
+                stack: 'Total',
+                data: [820, 932, 901, 934, 1290, 1330, 1320]
+            }
+        ],
+        color: ['pink', 'blue', 'green', 'skyblue', 'red']
+    };
+    myChart.setOption(option)
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // 构造函数
+    function Person (uname, age) {
+      this.uname = uname
+      this.age = age
+    }
+
+    // 原型对象
+    Person.prototype.eat = function () {
+      console.log('吃饭')
+    }
+
+    // 实例对象
+    let obj = new Person('爱妃', 22)
+
+    // 每一个对象都有一个属性：__proto__
+    // 作用：用于指向原型对象(prototype)
+
+    // console.log(obj)
+    console.log(Person.prototype)
+    console.log(obj.__proto__)
+
+    console.log(obj.__proto__ === Person.prototype)
+  </script>
+</body>
+</html>

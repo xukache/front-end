@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // 命令空间
+    // let obj = {
+    //   uname: '阿飞',
+    //   age: 22
+    // }
+
+    // let o = {
+    //   uname: '李寻欢',
+    //   age: 23
+    // }
+
+    // 构造函数：当作模板
+    function Person (uname, age, height, weight) {
+      this.uname = uname
+      this.age = age
+      this.height = height
+      this.weight = weight
+
+      // 吃饭
+      this.eat = function () {
+        console.log('吃饭')
+      }
+
+      // 睡觉
+      this.sleep = function () {
+        console.log('睡觉')
+      }
+    }
+
+    // 实例化
+    let obj1 = new Person('张飞', 22, '90kg', '189cm')
+
+    console.log(obj1)
+
+  </script>
+</body>
+</html>

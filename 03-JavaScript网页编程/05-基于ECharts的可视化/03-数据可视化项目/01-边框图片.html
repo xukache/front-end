@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 400px;
+        height: 300px;
+        border: 30px solid pink;
+        border-image-source: url(images/border.png);
+        border-image-slice: 30 30 30 30;
+        /* border-image-slice: 30; */
+        border-image-width: 30px;  /*默认的是border宽度 但是边框宽度不会挤压文字*/
+        border-image-repeat: round;
+      }
+    </style>
+  </head>
+  <body>
+    <div>边框图片</div>
+  </body>
+</html>

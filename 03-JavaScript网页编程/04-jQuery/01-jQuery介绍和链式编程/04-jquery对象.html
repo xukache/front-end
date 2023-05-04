@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>04-jquery对象</h3>
+  <p>
+    jffffffffffffffffffdfdeeeefe
+  </p>
+
+  <h4>将原生dom对象转换成jquery对象后，便可以调用其实例中的方法了</h4>
+  <ul>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+    <li>jquery</li>
+  </ul>
+  <script src="./jQuery/jquery-3.6.4.min.js"></script>
+
+  <script>
+
+    // 1. 打印dom和jq对象的区别
+    let li = document.querySelector('li')
+    console.log('li:', li)
+    let $li = $('li')
+    console.log('$li:', $li)
+    // 2. jq对象的方法
+    $li.css('backgroundColor', 'pink')
+    // 3. 混着用（测试）
+    // li.css('backgroundColor', 'skyblue')
+    // 4. dom对象转jq对象
+    let $li2 = $(li)
+    $li2.css('backgroundColor', 'skyblue')
+
+  </script>
+</body>
+</html>

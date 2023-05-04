@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //一一对应
+      // let [a, b, c, d, e, f] = ['赵云', '张飞', '关羽', '张辽', '许褚', '典韦']
+
+      // console.log(a, b, c, d, e, f)
+
+      // 变量多值少  多的都为undefined
+      // let [a, b, c, d, e, f, g, h, i ,j, k] = ['赵云', '张飞', '关羽', '张辽', '许褚', '典韦']
+
+      // console.log(a, b, c, d, e, f, g, h, i ,j, k)
+
+      // 变量少值多 有几个变量取几个值
+      // let [a, b, c] = ['赵云', '张飞', '关羽', '张辽', '许褚', '典韦']
+
+      // console.log(a, b, c)
+
+      // 按需取值
+      // let [, , a, b, , c] = ['赵云', '张飞', '关羽', '张辽', '许褚', '典韦']
+      // console.log(a, b, c)
+
+      // 剩余值
+      // let [, a, b, ...c] = ['赵云', '张飞', '关羽', '张辽', '许褚', '典韦']
+      // console.log(a, b, c)
+
+      // 复杂情况
+      let [, , a, b, [, , c, d]] = [
+        "赵云",
+        "张飞",
+        "关羽",
+        "张辽",
+        ["许褚", "典韦", "武松", "林冲"],
+      ];
+
+      console.log(a, b, c, d);
+    </script>
+  </body>
+</html>

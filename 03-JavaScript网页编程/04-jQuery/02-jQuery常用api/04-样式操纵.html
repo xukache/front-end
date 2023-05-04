@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>css方法</h3>
+  <p>css可以获取及设置元素样式，设置的是行内样式</p>
+  <div class="box"></div>
+
+  <script src="./jQuery/jquery-3.6.4.min.js"></script>
+  <script>
+
+    // 键值对设置
+    $('.box').css('backgroundColor', 'pink')
+    $('.box').css('border', '10px solid orange')
+    $('.box').css('width', '250px')
+    $('.box').css('height', 250)
+
+    // 对象方式设置
+    $('.box').css({
+      backgroundColor: 'skyblue',
+      border: '10px solid red',
+      width: 100,
+      height: 100  // 默认为px
+    })
+    // 样式获取
+    $('.box').css('width')
+    console.log('width:', width)
+
+
+  </script>
+</body>
+</html>

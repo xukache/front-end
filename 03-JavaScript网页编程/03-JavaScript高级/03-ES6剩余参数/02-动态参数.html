@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // console.log(1,2,3,4,5,6,7,8,9,)
+
+      // function fun () {
+      //   // 在函数内部有一个特殊的对象，arguments
+      //   // arguments用于接收所有的实参  伪数组
+      //   // console.log(arguments)
+      //   for (let i = 0; i < arguments.length; i++) {
+      //     console.log(arguments[i])
+      //   }
+      // }
+
+      // fun(1, 2, 3, 'a', 'b', 'c', 4, 5, 6)
+
+      function getMax () {
+        let max = arguments[0]
+        // arguments
+        for (let i = 0; i < arguments.length; i++) {
+          if (arguments[i] > max) {
+            max = arguments[i]
+          }
+        }
+
+        console.log(max)
+      }
+
+      getMax(23, 56, 66, 3, 9, 6);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+
+    // 每一个原型对象都有一个属性：constructor，用于指回构造函数本身
+    // function Person() {}
+
+    // console.log(Person.prototype)
+
+    // // constructor：用于指回构造函数本身
+    // console.log(Person.prototype.constructor)
+
+
+    // function Dog () {}
+
+    // console.log(Dog.prototype)
+    // console.log(Dog.prototype.constructor)
+
+    // function Cat () {}
+
+    // console.log(Cat.prototype)
+    // console.log(Cat.prototype.constructor)
+
+    function Person (uanme, age) {
+      this.uname = uname
+      this.age = age
+    }
+
+
+    // 实例化对象
+    let obj = new Person('阿飞', 22)
+
+    console.log(obj.constructor)
+
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      .box {
+        margin-top: 50px;
+        width: 200px;
+        height: 100px;
+        background-color: green;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h3>05-事件绑定</h3>
+    <p>在jquery中以原生事件类型的名称为依据，封装了相对应的事件处理方法</p>
+    <ul>
+      <li>xukai</li>
+      <li>hubei</li>
+      <li>beijing</li>
+      <li>hebei</li>
+    </ul>
+    <input type="text" class="text" />
+    <div class="box"></div>
+
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+
+      // 1. 为li添加点击事件
+      $('li').click( function () {
+        console.log('click')
+        console.log(this)
+
+        let $this = $(this)
+        $this.css('backgroundColor', 'pink')
+      })
+      // 2. 为 .text添加获得焦点事件
+      $('.text').focus( function () {
+        console.log('focus')
+        console.log(this)
+
+        let $this = $(this)
+        $this.css('backgroundColor', 'pink')
+      })
+      // 3. 为.text添加失去焦点事件
+      $('.text').blur( function () {
+        console.log('blur')
+        console.log(this)
+
+        let $this = $(this)
+        $this.css('backgroundColor', '')
+      })
+      // 4. 为.box添加鼠标移入事件
+      $('.box').mouseenter( function () {
+        console.log('mouseenter')
+        console.log(this)
+
+        let $this = $(this)
+        $this.css('backgroundColor', 'pink')
+      })
+      // 4. 为.box添加鼠标移出事件
+      $('.box').mouseleave( function () {
+        console.log('mouseleave')
+        console.log(this)
+
+        let $this = $(this)
+        $this.css('backgroundColor', 'green')
+      })
+
+    </script>
+  </body>
+</html>

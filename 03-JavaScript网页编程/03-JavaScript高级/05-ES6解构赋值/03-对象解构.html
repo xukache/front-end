@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 把属性名当作变量名即可
+      // let obj = {
+      //   uname: '张三丰',
+      //   age: 22,
+      //   sex: '男',
+      //   score: 99,
+      //   index: 6,
+      // }
+
+      // 把对象解开解构赋值给变量  没有一一对应一说
+      // 找不到属性名就返回undefined
+      // let {uname, age, score, index} = {
+      //   uname: '张三丰',
+      //   age: 22,
+      //   sex: '男',
+      //   score: 99,
+      //   index: 6,
+      // }
+
+      // console.log(uname, age, score, index)
+
+      // 用冒号改名字
+      // let {uname:userName, age, score, index:idx} = {
+      //   uname: '张三丰',
+      //   age: 22,
+      //   sex: '男',
+      //   score: 99,
+      //   index: 6,
+      // }
+
+      // console.log(userName, idx)
+
+      // 复杂形式
+      // let {
+      //   dog: { uname },
+      // } = {
+      //   uname: "张三丰",
+      //   dog: {
+      //     uname: "小狗",
+      //     age: 1,
+      //   },
+      //   age: 22,
+      //   sex: "男",
+      //   score: 99,
+      //   index: 6,
+      // };
+
+      // console.log(uname)
+
+      function person({ uname, age, sex }) {
+        console.log(`我叫${uname}今年${age}岁性别是${sex}`);
+      }
+
+      person({ uname: "阿飞", age: 22, sex: "男" });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+      }
+      #app {
+        width: 480px;
+        height: 80px;
+        margin: 200px auto;
+      }
+      .input-num {
+        margin-top: 20px;
+        height: 100%;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 4px 4px 4px #adadad;
+        border: 1px solid #c7c7c7;
+        background-color: #c7c7c7;
+      }
+      .input-num button {
+        width: 150px;
+        height: 100%;
+        font-size: 40px;
+        color: #ad2a27;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0);
+      }
+      .input-num span {
+        height: 100%;
+        font-size: 40px;
+        flex: 1;
+        text-align: center;
+        line-height: 80px;
+        font-family: auto;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- html结构 -->
+    <div id="app">
+      <!-- 计数器功能区域 -->
+      <div class="input-num">
+        <!-- 减号 -->
+        <button>-</button>
+        <!-- 内容 -->
+        <span>0</span>
+        <!-- 加号 -->
+        <button>+</button>
+      </div>
+    </div>
+
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+
+      // 累加
+      $('.input-num button').last().click(function () {
+        console.log('累加')
+        let num = $('.input-num span').text()
+        if (num < 10) {
+          num++
+        $('.input-num span').text(num)
+        } else {
+          alert('最大值是10')
+        }
+      })
+
+      // 递减
+      $('.input-num button').first().click(function () {
+        console.log('递减')
+        let num = $('.input-num span').text()
+        if (num > 0) {
+          num--
+        $('.input-num span').text(num)
+        } else {
+          alert('最小值是0')
+        }
+      })
+    </script>
+  </body>
+</html>

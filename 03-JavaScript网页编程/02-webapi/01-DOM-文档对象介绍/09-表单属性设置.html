@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" value="请输入">
+  <button disabled>按钮</button>
+  <input type="checkbox" class="check">
+  <script>
+    let input = document.querySelector('input')
+    console.log(input.value)
+    input.value = '小米手机'
+    input.type = 'password'
+
+    let btn = document.querySelector('button')
+    btn.disabled = false
+
+    let checkbox = document.querySelector('.check')
+    checkbox.checked = true
+  </script>
+</body>
+</html>

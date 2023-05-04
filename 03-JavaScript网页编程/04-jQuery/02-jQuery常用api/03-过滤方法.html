@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>过滤方法</h3>
+  <p>对获取到的元素进行过滤，返回的依旧是jquery对象</p>
+  <ul>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+  </ul>
+
+  <script src="./jQuery/jquery-3.6.4.min.js"></script>
+  <script>
+
+    // first
+    $('li').first().css('backgroundColor', 'pink')
+    // last
+    $('li').last().css('backgroundColor', 'yellowgreen')
+    // eq
+    $('li').eq(1).css('backgroundColor', 'red')
+  </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>图片切换</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <div id="mask">
+      <div class="center">
+        <h2 class="title">
+          <img src="./images/logo.png" alt="" />
+        </h2>
+        <!-- 图片 -->
+        <img class="cover" src="./images/1.png" alt="" />
+        <!-- 左箭头 -->
+        <a href="javascript:void(0)" class="left">
+          <img src="./images/prev.png" alt="" />
+        </a>
+        <!-- 右箭头 -->
+        <a href="javascript:void(0)" class="right">
+          <img src="./images/next.png" alt="" />
+        </a>
+      </div>
+    </div>
+    <!-- 导入jQuery -->
+    <script src="./jquery/jquery-3.5.1.min.js"></script>
+    <script>
+      let index = 1
+      $('.center a')
+        .mouseenter(function () {
+          $(this).css('transform', 'scale(1.1)')
+        })
+        .mouseleave(function () {
+          $(this).css('transform', 'scale(1)')
+        })
+
+      $('.center a')
+        .first()
+        .css('display', 'none')
+        .click(function () {
+          if (index > 1) {
+            index--
+            $('.cover').attr('src', `./images/${index}.png`)
+            $('.right').css('display', 'block')
+            if (index == 1) {
+              $(this).css('display', 'none')
+            }
+          } else {
+            alert('别点啦,到底啦!')
+          }
+        })
+      $('.center .right').click(function () {
+        if (index < 5) {
+          index++
+          $('.cover').attr('src', `./images/${index}.png`)
+          $('.left').css('display', 'block')
+          if (index == 5) {
+            $(this).css('display', 'none')
+          }
+        } else {
+          alert('别点啦,到头啦!')
+        }
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // forEach：用于遍历数组
+      // let arr = ["a", "b", "c", "d", "e", "f", "g"];
+      // arr.forEach(function (item, index, o) {
+      //   // 第一个参数：代表数组的每一项
+      //   // 第二个参数：代表数组的每一项的索引值
+      //   // 第三个参数：代表当前数组本身
+
+      //   console.log(item, index, o);
+      // });
+
+      let arr = [
+        {uname: '阿飞', age: 22, sex: '男'},
+        {uname: '张三丰', age: 22, sex: '男'},
+        {uname: '李寻欢', age: 22, sex: '男'},
+      ]
+
+      arr.forEach(item => {
+        console.log(`姓名：${item.uname},年龄：${item.age},性别：${item.sex}`)
+      });
+    </script>
+  </body>
+</html>

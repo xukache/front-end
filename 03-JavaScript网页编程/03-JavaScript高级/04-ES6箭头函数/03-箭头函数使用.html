@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="点击" />
+    <script>
+      let btn = document.querySelector("input");
+      btn.addEventListener("click", () => {
+        btn.style.background = "red";
+      });
+
+      // 箭头函数使用
+      // window.setInterval(function () {console.log('定时器')}, 1000)
+      // window.setInterval(() => {
+      //   console.log('函数体')
+      // }, 1000)
+
+      // [1, 2, 3].forEach(element => {
+      //   console.log(element)
+      // });
+
+      // 注意点：
+      // 1. 箭头函数不存在预解析，所以必须先定义再调用
+      // let fn = () => {
+      //   console.log('aaa')
+      // }
+      // fn()
+
+      // 2. 箭头函数中，不存在arguments
+      // let fn = (...a) => {
+      //   console.log(arguments);
+      // };
+      // fn(1, 2, 3);
+
+      // 3. 箭头函数认为不存在this，箭头函数中的this指向的是上级作用域的this
+      // 箭头函数中的this指向箭头函数所在作用域的this
+      // 如果涉及到this使用的时候，尽量不要使用箭头函数
+
+      // let fn = () => {
+      //   console.log(this)
+      // }
+
+      // let obj = {
+      //   uname: "阿飞",
+      //   age: 22,
+      //   fei: function () {
+      //     window.setInterval(() => {
+      //       console.log(this)
+      //     }, 1000)
+      //   }
+      // };
+
+      // obj.fei(); // obj
+
+      // 函数中的this指向谁，指向window
+      // window.setInterval(function () {
+      //   console.log(this)
+      // }, 1000)
+
+      // 对象中的this指向谁，指向对象调用者
+      // let obj = {
+      //   uname: '阿飞',
+      //   age: 22,
+      //   fei: function () {
+      //     console.log(this)
+      //   }
+      // }
+
+      // obj.fei()
+
+      // 事件处理函数中的this指向谁，指向事件源（调用者）
+    </script>
+  </body>
+</html>

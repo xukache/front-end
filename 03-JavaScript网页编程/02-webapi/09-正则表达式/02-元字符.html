@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 1. 边界符
+    // ^ 表示匹配行首的文本
+    // $ 表示匹配行尾的文本
+    // console.log(/哈/.test('哈哈'))
+    // console.log(/^哈/.test('二哈'))
+    // console.log(/^哈$/.test('我开心的哈哈大笑'))
+    // console.log(/^二哈$/.test('二哈'))  // 精准匹配必须完全一致
+
+
+    // // 2. 量词
+    // // * 重复零次或多次
+    // console.log(/a*/.test(''))
+    // console.log(/a*/.test('a'))
+    // console.log(/a*/.test('aaa'))
+    // console.log(/a*/.test('b'))
+    // // + 重复1次或多次
+    // console.log(/a+/.test(''))  // false
+    // console.log(/a+/.test('a'))
+    // console.log(/a+/.test('aaa'))
+    // console.log(/a+/.test('b'))  // false
+    // // ? 重复0次或1次
+    // console.log(/^a?$/.test(''))  // false
+    // console.log(/a+/.test('a'))
+    // console.log(/a+/.test('aaa'))  // false
+    // console.log(/a+/.test('b'))  // false
+    // // {n} 只能出现n次
+    // console.log(/^a{3}$/.test('aa'))
+    // console.log(/^a{3}$/.test('aaa'))
+    // console.log(/^a{3}$/.test('aaaa'))
+    // // {n,} 大于等于n 不要加空格
+    // console.log(/^a{3,}$/.test('aa'))
+    // console.log(/^a{3,}$/.test('aaa'))
+    // console.log(/^a{3,}$/.test('aaaa'))
+    // // {m,n} 大于等于m，小于等于n
+    // console.log(/^a{3,6}$/.test('aaaa'))
+    // console.log(/^a{3,6}$/.test('aaaaaaaa'))
+
+    
+    // 3. 字符类
+    // [] 匹配括号内的任意字符
+    // console.log(/abc/.test('abc'))
+    // console.log(/[abc]/.test('abcdf'))
+    // console.log(/[abc]/.test('df'))
+    // [a-z] 匹配括号内a-z内的任意字符
+    // console.log(/^[a-z]$/.test('abcdf'))
+    // console.log(/^[a-z]*$/.test('df'))
+    // console.log(/[a-z]/.test('234'))
+    // [a-zA-Z] 26个英文字母选其中一个
+    console.log(/[a-zA-Z]/.test('d'))
+  </script>
+  
+</body>
+</html>

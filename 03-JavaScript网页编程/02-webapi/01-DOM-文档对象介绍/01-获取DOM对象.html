@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>我是一个盒子</div>
+  <div>我是二个盒子</div>
+  <div class="three">我是三个盒子</div>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+  <script>
+    // let div = document.querySelector('.three')
+    // console.log(div)
+
+    // let li = document.querySelector('ul li:last-child')
+    // console.log(li)
+
+    let lis = document.querySelectorAll('ul li')
+    console.log(lis)
+
+    for (let i = 0; i < lis.length; i++) {
+      console.log(lis[i])
+    }
+  </script>
+  
+</body>
+</html>

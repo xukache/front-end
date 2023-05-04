@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // apply：函数.apply(this, [arg1, arg2, ...])
+    // function fn () {
+    //   console.log(this)
+    // }
+
+    // let obj = {uname: '阿飞'}
+
+    // fn.apply(obj, [111, 222])
+
+    let obj = {
+      uname: '张三丰',
+      age: 22, 
+      taiji: function () {
+        console.log(this)
+      }
+    }
+    let o = {uanme: '张无忌', age: 16}
+    obj.taiji.apply(o)
+
+    // 数组
+    let arr = [23, 66, 33, 19, 4, 7]
+
+    // 扩展运算符
+    let re = Math.max(...arr)
+
+    console.log(re)
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box" data-index="0" data-name="xukai"></div>
+  <script>
+    let box = document.querySelector('.box')
+    // // 添加自定义属性
+    // div.setAttribute('myid', 10)
+    // // 获取自定义属性
+    // div.getAttribute('myid')
+    // // 删除自定义属性
+    // div.removeAttribute('myid')
+
+    // data-自定义属性  html5规范
+    console.log(box.dataset)
+    console.log(box.dataset.index)
+
+  </script>
+</body>
+</html>

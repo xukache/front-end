@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+
+<script src="../js/echarts.min.js"></script>
+<script>
+    let myChart = echarts.init(document.querySelector('.box'))
+
+    let option = {
+        title: {
+            text: '某站点用户Access From',
+            subtext: '虚拟数据',
+            left: 'center'
+        },
+        tooltip: {
+            trigger: 'item'
+        },
+        legend: {
+            orient: 'vertical',
+            left: 'left'
+        },
+        series: [
+            {
+                name: 'Access From',
+                type: 'pie',
+                radius: '50%',
+                data: [
+                    {value: 1048, name: '搜索引擎'},
+                    {value: 735, name: '直接进入'},
+                    {value: 580, name: '邮件'},
+                    {value: 484, name: '工会广告'},
+                    {value: 300, name: '视频广告'}
+                ],
+                emphasis: {
+                    itemStyle: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    myChart.setOption(option)
+</script>
+
+</body>
+</html>

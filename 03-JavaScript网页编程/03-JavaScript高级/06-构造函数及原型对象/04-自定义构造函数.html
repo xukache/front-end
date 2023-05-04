@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 自定义构造函数
+      // 建议：所有构造函数的首字母大写
+      // 构造函数里面this指向当前实例对象
+      function Person(uname, age, sex) {
+        // 设置属性
+        this.uname = uname
+        this.age = age
+        this.sex = sex
+
+        this.eat = function () {
+          console.log('吃饭')
+        }
+      }
+
+      // 一般如何使用
+      // 实例化对象
+      let o = new Person('张三丰', 22, '男');
+      console.log(o)
+
+      let o1 = new Person('阿飞', 21, '男')
+      console.log(o1)
+
+    </script>
+  </body>
+</html>

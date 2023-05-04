@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件对象常用属性</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('click', function (e) {
+            // console.log(11)
+            // console.log(e)
+            console.log('clientX:' + e.clientX, 'clientX:' + e.clientY)
+            console.log('pageX:' + e.pageX, 'pageYX:' + e.pageY)
+            console.log('offsetX:' + e.offsetX, 'offsetY:' + e.offsetY)
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>13-人员管理</title>
+    <!-- 插件样式 -->
+    <link rel="stylesheet" href="./assets/datepicker/datepicker.min.css" />
+    <!-- 自己的样式 -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <h1>人员管理</h1>
+    <div class="container">
+      <!-- 新增按钮 -->
+      <button class="btn add">新增</button>
+      <!-- 表格 -->
+      <table>
+        <thead>
+          <tr>
+            <th width="150">姓名</th>
+            <th width="150">手机</th>
+            <th>生日</th>
+            <th width="300">操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="display: none;">
+            <td class="td-name">小红</td>
+            <td class="td-mobile">18888881111</td>
+            <td class="td-birth">1990年02月08日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-name">小红</td>
+            <td class="td-mobile">18888881111</td>
+            <td class="td-birth">1990年02月08日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-name">小黄</td>
+            <td class="td-mobile">18888882222</td>
+            <td class="td-birth">1990年02月09日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-name">小蓝</td>
+            <td class="td-mobile">18888883333</td>
+            <td class="td-birth">1990年02月10日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-name">小绿</td>
+            <td class="td-mobile">18888884444</td>
+            <td class="td-birth">1990年02月11日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-name">小青</td>
+            <td class="td-mobile">18888885555</td>
+            <td class="td-birth">1990年02月12日</td>
+            <td>
+              <button class="btn edit">编辑</button>
+              <button class="btn del">删除</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- 弹出框 -->
+    <div class="dialog-wrap">
+      <div class="form-container">
+        <div class="title">
+          <h3>编辑</h3>
+          <i class="close">×</i>
+        </div>
+        <form class="form">
+          <label class="required">
+            姓名:
+            <input
+              type="text"
+              class="nickname"
+              data-describedby="nickname-error"
+              data-description="nickname"
+              data-required
+            />
+            <span class="error" id="nickname-error"></span>
+          </label>
+          <label class="required">
+            手机:
+            <input
+              type="text"
+              class="mobile"
+              data-describedby="mobile-error"
+              data-description="mobile"
+              data-pattern="^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$"
+              data-required
+            />
+            <span class="error" id="mobile-error"></span>
+          </label>
+          <label class="required">
+            生日:
+            <input
+              type="text"
+              class="birthday"
+              data-describedby="birthday-error"
+              data-description="birthday"
+              data-required
+            />
+            <span class="error" id="birthday-error"></span>
+          </label>
+
+          <div class="control">
+            <a class="btn cancel">取消</a>
+            <button class="btn">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- 导入jQuery -->
+    <script src="./jquery/jquery-3.5.1.js"></script>
+    <!-- 导入日期选择器插件 -->
+    <script src="./assets/datepicker/datepicker.min.js"></script>
+    <!-- 导入日期选择器的语言包 -->
+    <script src="./assets/datepicker/i18n/datepicker.zh-CN.js"></script>
+    <script src="./assets/jquery-validate/jquery-validate.min.js"></script>
+    <script>
+      let $editTr = undefined
+      //  弹框
+      $('.btn.add').click(function () {
+        $('.title h3').text('新增')
+        $editTr = undefined
+        $('.dialog-wrap').fadeIn()
+      })
+      // 关闭弹框
+      $('i.close').click(function () {
+        $('.dialog-wrap').fadeOut(function () {
+          // jQ对象转dom
+          $('form')[0].reset()
+          $('form span').text('')
+        })
+      })
+
+      // 表单提交行为
+      $('form').submit(function (event) {
+        event.preventDefault()
+      })
+      $('.cancel').click(function (e) {
+        $('.dialog-wrap').fadeOut(function () {
+          // jQ对象转dom
+          $('form')[0].reset()
+          $('form span').text('')
+        })
+        e.preventDefault()
+      })
+      // 初始化插件
+      $('.birthday').datepicker({
+        language: 'zh-CN',
+        autoHide: true
+      })
+      // 初始化校验插件
+      $('form').validate({
+        description: {
+          nickname: {
+            required: '昵称不能为空!'
+          },
+          birthday: {
+            required: '生日不能为空!'
+          },
+          mobile: {
+            required: '手机不能为空!',
+            pattern: '手机格式有误!'
+          }
+        },
+        valid: function () {
+          console.log(this)
+          let nickname = $('.nickname').val()
+          let mobile = $('.mobile').val()
+          let birthday = $('.birthday').val()
+          let $cloneTr = $('tbody tr')
+            .first()
+            .clone()
+          // 看是编辑 还是新增
+          if ($editTr === undefined) {
+            // 新增
+            $cloneTr.find('.td-name').text(nickname)
+            $cloneTr.find('.td-mobile').text(mobile)
+            $cloneTr.find('.td-birth').text(birthday)
+            // 添加到tbody中
+            $('tbody').append($cloneTr)
+            $cloneTr.show()
+          } else {
+            // 编辑
+            $editTr
+              .find('td')
+              .first()
+              .text(nickname)
+            $editTr
+              .find('td')
+              .eq(1)
+              .text(mobile)
+            $editTr
+              .find('td')
+              .eq(2)
+              .text(birthday)
+            // 清空编辑tr 便于下一次逻辑
+            $editTr = undefined
+          }
+          // 关闭对话框
+          $('.dialog-wrap').fadeOut(function () {
+            // jQ对象转dom
+            $('form')[0].reset()
+          })
+        }
+      })
+
+      // 删除逻辑
+      $('tbody').on('click', '.del', function () {
+        $(this)
+          .parent()
+          .parent()
+          .fadeOut(function () {
+            $(this).remove()
+          })
+      })
+
+      // 进入编辑状态
+      $('tbody').on('click', '.edit', function () {
+        $editTr = $(this)
+          .parent()
+          .parent()
+        let nickname = $editTr
+          .find('td')
+          .first()
+          .text()
+        let mobile = $editTr
+          .find('td')
+          .eq(1)
+          .text()
+        let birthday = $editTr
+          .find('td')
+          .eq(2)
+          .text()
+        $('.nickname').val(nickname)
+        $('.mobile').val(mobile)
+        $('.birthday').val(birthday)
+        $('.title h3').text('编辑')
+        $('.dialog-wrap').fadeIn()
+      })
+    </script>
+  </body>
+</html>

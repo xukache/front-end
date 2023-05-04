@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 函数每次执行都会开辟新的内存空间，当函数执行完毕之后，就会关闭这块空间，并且里面的一些变量都会销毁
+    function fn () {
+      // 不写let 声明的变量就是全局变量
+      let n = 3
+    }
+
+    fn()
+
+    console.log(n)
+
+    // 作用域：变量的使用范围
+      // 全局作用域：函数外部的作用域，在全局作用域定义的变量叫做全局变量，可以在任何地方使用
+      // 局部作用域：函数内部的作用域，在局部作用域定义的变量叫做局部变量，只能在当前函数中使用
+
+    // 变量：全局变量，局部变量
+  </script>
+  
+</body>
+</html>

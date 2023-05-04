@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+            overflow: auto;
+            padding: 10px;
+            border: 10px solid red;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容
+    我有很多很多的内容v我有很多很多的内容
+</div>
+<script>
+    // scrollWidth scrollHeight 内容的宽高(了解)
+    let div = document.querySelector('div')
+    console.log(div.scrollWidth)  // 150
+    console.log(div.scrollHeight)  // 336
+    // 被卷去的头部和左侧 scrollTop scrollLeft
+    // div.addEventListener('scroll', function () {
+    //     console.log(this.scrollTop)
+    // })
+    console.log('-------------')
+
+    // offsetWidth offsetHeight
+    // 盒子元素的大小 = 盒子本身的宽高 + padding + border
+    console.log(div.offsetWidth)  // 150
+    console.log(div.offsetHeight)  // 150
+    // 获取元素距离自己定位父级元素的左、上距离
+    // offsetLeft offsetTop 只读属性
+    // console.log(div.offsetTop)
+    // console.log(div.offsetLeft)
+    console.log('-------------')
+
+    // client 当前可视区域 获取元素可见部分的宽高
+    console.log(document.documentElement.clientWidth)
+    console.log(document.documentElement.clientHeight)
+    // clientTop clientLeft 获取左边框和上边框的宽度 不包含border 只读属性
+    console.log(div.clientTop)  // 边框的宽度 了解
+    console.log(div.clientLeft)
+
+</script>
+</body>
+</html>

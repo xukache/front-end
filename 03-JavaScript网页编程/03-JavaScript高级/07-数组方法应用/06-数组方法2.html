@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // indexOf：查找某个元素在数组中首次出现的索引位置，找不到就是返回-1
+
+    // let arr = ['a', 'b', 'c', 'a', 'b', 'f']
+    // let re = arr.indexOf('b')
+    // console.log(re)
+
+    // lastIndexOf:查找某个元素在数组中的尾次出现的索引位置，找不到就返回-1
+    // let re = arr.lastIndexOf('b')
+    // console.log(re)
+
+    // sort：排序
+    let arr = [3, 16, 22, 66, 123, 99]
+    // let re = arr.sort(function(a, b) {return a - b})  // 升序
+    let re = arr.sort(function(a, b) {return b - a})  // 降序
+
+    console.log(re)
+
+  </script>
+</body>
+</html>

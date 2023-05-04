@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>08-操纵value</h3>
+  <p>jquery中封装了操纵value属性的方法，可以取值和赋值</p> 
+  <input type="text" class="text">
+
+  <script src="./jQuery/jquery-3.6.4.min.js"></script>
+  <script>
+
+    // 赋值
+    $('.text').val('kachex')
+    // 取值
+    $('.text').blur(function () {
+      let value = $(this).val()
+      console.log(value)
+    })
+
+  </script>
+</body>
+</html>

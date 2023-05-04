@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-04-26T12:40:22.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="2WfmicJ64SJHA_PozuTj" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="S140JFY5v2G2kNeAsNvO">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ervmk5x926SjJkbawLvt-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;纯净水&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;shadow=1;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="560" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" parent="1" source="ervmk5x926SjJkbawLvt-6" target="ervmk5x926SjJkbawLvt-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;净水器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;strokeWidth=4;shadow=1;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ervmk5x926SjJkbawLvt-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" parent="1" target="ervmk5x926SjJkbawLvt-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自来水&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#eca39d;fillStyle=zigzag-line;strokeWidth=3;shadow=1;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;输出新值&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;shadow=1;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="2X8_4RQYNLzCq2bguVtS-7" target="2X8_4RQYNLzCq2bguVtS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;过滤器函数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;strokeWidth=4;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" target="2X8_4RQYNLzCq2bguVtS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;需处理的值&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#eca39d;fillStyle=zigzag-line;strokeWidth=3;shadow=1;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-12" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;参数&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2X8_4RQYNLzCq2bguVtS-13" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;返回值&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="449" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

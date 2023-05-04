@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>05-属性操纵</h3>
+    <p>jquery中封装了设置和读取网页元素属性的方法</p>
+    <a href="#">kachex</a>
+    <img src="" />
+
+    <script src="./jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+
+      // 赋值
+      $('a').attr('href', 'http://www.baidu.com')
+      $('img').attr('src', 'http://www.itheima.com/images/logo.png')
+      $('img').attr('info', 'kachex')
+      // 取值
+      let href = $('a').attr('href')
+      console.log(href)
+      let info = $('img').attr('info')
+      console.log(info)
+      // 删除
+      $('a').removeAttr('href')
+      $('img').removeAttr('src')
+      $('img').removeAttr('info')
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    let obj = {
+      uname: '张三丰',
+      age: 22,
+      sex: '男',
+
+      color: ['red', 'blue', 'yellow', 'pink'],
+      message: {
+        score: 99,
+        index: 6,
+      }
+    }
+
+    let newObj = {}
+
+    // 方法：
+    Object.assign(newObj, obj)
+
+    // newObj.uname = obj.uname
+    // newObj.age = obj.age
+    // newObj.sex = obj.sex
+
+    // for (let key in obj) {
+    //   newObj[key] = obj[key]
+    // }
+
+    // obj.message.index = 666
+    obj.uname = 'aaa'
+
+    console.log(obj, newObj)
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <button id="btnGET">发起带参数的GET请求</button>
+
+    <script>
+      $(function () {
+        $("#btnGET").on("click", function () {
+          $.get(
+            "http://www.liulongbin.top:3006/api/getbooks",
+            { id: 1 },
+            function (res) {
+              console.log(res); // 这里的res是服务器返回的数据
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

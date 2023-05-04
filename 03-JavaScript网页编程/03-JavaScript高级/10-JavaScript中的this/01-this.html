@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // 普通函数：window，调用者
+    function fn () {
+      console.log(this)
+    }
+    fn()
+
+    // 构造函数：实例化对象
+    function Person(uname, age) {
+      this.uname = uname
+      this.age = age
+      console.log(this)
+    } 
+
+    let obj1 = new Person('阿飞', 22)
+    console.log(obj1)
+    let obj2 = new Person('李寻欢', 23)
+    console.log(obj2)
+
+    // 方法：调用者
+    let obj = {
+      uname: 'zhangsanfeng',
+      age: 22,
+      fei: function () {
+        console.log(this)
+      }
+    }
+    obj.fei()
+
+    // 事件吃力函数：事件源
+    document.addEventListener('click', function () {
+      console.log(this)
+    })
+
+    // 定时器：window、调用者
+    window.setInterval(function () {
+      console.log(this)
+    }, 1000)
+
+    // 自调用函数：window、调用者
+    ;(function () {
+      console.log(this)
+    })()
+
+
+  </script>
+  
+</body>
+</html>

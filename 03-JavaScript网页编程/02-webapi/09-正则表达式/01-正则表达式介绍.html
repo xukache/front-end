@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 定义正则表达式  对象
+    let reg = /前端/
+    let str = '我想我想学前端学前端'
+    // 检测是否匹配
+    console.log(reg.test(str))
+    // 检测符合规则的字符串 首次找到的
+    console.log(reg.exec(str));
+  </script>
+</body>
+</html>

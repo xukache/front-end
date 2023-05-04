@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // constructor：是一个特殊的方法，如果不写，会自动创建
+      // 在实例化对象时就会执行
+      // 通常用于接收参数，做初始化操作
+      class Person {
+        constructor (uname, age) {
+          this.name = uname;
+          this.age = age;
+        }
+
+        say() {
+          console.log("说话");
+        }
+
+        run() {
+          console.log("跑步");
+        }
+      }
+
+      let obj = new Person('张三丰', 22);
+      console.log(obj);
+
+      // class Person {
+      //   uname = '张三丰'
+      //   age = 22
+      // }
+
+      // let obj = new Person()
+
+      // console.log(obj)
+
+      // let o = new Person()
+      // console.log(o)
+    </script>
+  </body>
+</html>
