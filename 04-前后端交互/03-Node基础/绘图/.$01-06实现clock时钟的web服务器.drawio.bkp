@@ -1,0 +1,83 @@
+<mxfile host="Electron" modified="2023-05-07T08:54:06.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="8Zz7oY-FF_htOIXEqVD2" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="tqHv6gNXIxX08ADT5tFh">
+    <mxGraphModel dx="898" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QuQSCtoFBrH3SINebQhl-10" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;请求&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;exitX=0.994;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#333333;" parent="1" source="QuQSCtoFBrH3SINebQhl-1" target="QuQSCtoFBrH3SINebQhl-5" edge="1">
+          <mxGeometry x="0.005" relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-2" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;在浏览器中访问如下地址：&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="131" y="142" width="190" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-3" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 15px;&quot;&gt;/clock/index.html&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 150%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/clock/index.css&lt;/b&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 150%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/clock/index.js&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="179.25" width="140" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;sketch=1;curveFitting=1;jiggle=2;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="120" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-5" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot; style=&quot;font-size: 15px;&quot;&gt;把文件的实际存放路径，&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot; style=&quot;font-size: 15px;&quot;&gt;作为每个资源的请求url地址&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="136" width="200" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="QuQSCtoFBrH3SINebQhl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QuQSCtoFBrH3SINebQhl-5" target="QuQSCtoFBrH3SINebQhl-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-1" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;浏览器&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;自己写的Web服务器&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-3" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;响应&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;exitX=-0.012;exitY=0.876;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#333333;entryX=1.017;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QuQSCtoFBrH3SINebQhl-4" target="QuQSCtoFBrH3SINebQhl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="391" as="sourcePoint" />
+            <mxPoint x="350" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-4" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;因此，可以直接把请求的url地址，当作读取文件的路径&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486" y="201.75" width="200" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-5" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;将读取到的文件内容（字符串），通过 res.end() 响应给客户端&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="370" width="200" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-6" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;客户端请求回来的，不是具体的文件，而是文件中所存储的字符串&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128" y="340" width="196" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-7" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;请求&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;exitX=0.994;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#333333;" edge="1" parent="1">
+          <mxGeometry x="0.005" relative="1" as="geometry">
+            <mxPoint x="680" y="159" as="sourcePoint" />
+            <mxPoint x="841" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-8" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;sketch=1;curveFitting=1;jiggle=2;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="841" y="120" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-9" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;响应&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;exitX=-0.012;exitY=0.876;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#333333;entryX=1.017;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lXB1TbuS0Ci-cdGjISGn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="681" y="391" as="sourcePoint" />
+            <mxPoint x="684" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;磁盘目录&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="856" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-11" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;+ 项目根目录&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;++ clock&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;|-- index.html&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;|-- index.css&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;|-- index.js&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="856" y="136" width="140" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-12" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;注意：项目根目录以 / 表示&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="851" y="247.75" width="180" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lXB1TbuS0Ci-cdGjISGn-13" value="&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;因此每个文件的存放路径是：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;/clock/index.html&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;/clock/index.css&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 15px; line-height: 150%;&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;b&gt;/clock/index.js&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="851" y="317.25" width="204" height="132.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
