@@ -1,0 +1,65 @@
+<mxfile host="Electron" modified="2023-05-09T06:07:50.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="OqV_KGshjmS2uavjqEY2" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="tqHv6gNXIxX08ADT5tFh">
+    <mxGraphModel dx="1633" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QuQSCtoFBrH3SINebQhl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="490" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;shadow=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FF0000;" edge="1" parent="1" source="MRzbMmzlFwEHYnvgii7P-1" target="MRzbMmzlFwEHYnvgii7P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-4" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;从国外服务器下包&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MRzbMmzlFwEHYnvgii7P-3">
+          <mxGeometry x="-0.2698" y="4" relative="1" as="geometry">
+            <mxPoint x="-93" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-1" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 22px;&quot;&gt;国外&lt;br&gt;npm官方服务器&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="150" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-2" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 22px;&quot;&gt;国内用户&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-5" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="385" width="490" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#0000CC;shadow=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="MRzbMmzlFwEHYnvgii7P-8" target="MRzbMmzlFwEHYnvgii7P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-12" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;同步包的数据&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MRzbMmzlFwEHYnvgii7P-11">
+          <mxGeometry x="0.1748" y="2" relative="1" as="geometry">
+            <mxPoint x="19" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-8" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 22px;&quot;&gt;国外&lt;br&gt;npm官方服务器&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="460" width="340" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-9" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 22px;&quot;&gt;国内用户&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="405" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;strokeColor=#00CC00;" edge="1" parent="1" source="MRzbMmzlFwEHYnvgii7P-10" target="MRzbMmzlFwEHYnvgii7P-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-14" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;从国内服务器下包&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MRzbMmzlFwEHYnvgii7P-13">
+          <mxGeometry x="0.4448" y="5" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-10" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 22px;&quot;&gt;国内&lt;br&gt;淘宝npm镜像服务器&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="568" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-15" value="&lt;p style=&quot;line-height: 203%;&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;1. 每隔一段时间，自动把npm官方服务器的包同步到国内&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-16" value="&lt;p style=&quot;line-height: 203%;&quot;&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;2. 对国内用户提供下包服务&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

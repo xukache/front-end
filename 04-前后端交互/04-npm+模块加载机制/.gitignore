@@ -1,0 +1,5 @@
+# ignore this file 
+# 过滤掉任意目录下的 node_modules 
+*/node_modules/
+# 过滤掉任意目录下的dist
+*/dist/
