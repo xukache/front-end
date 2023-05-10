@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2023-05-09T15:33:18.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="EBOQSDB7r_eF_KAH0WXH" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="tqHv6gNXIxX08ADT5tFh">
+    <mxGraphModel dx="2110" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="MRzbMmzlFwEHYnvgii7P-2" target="MRzbMmzlFwEHYnvgii7P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-2" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;客户端的请求&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;shadow=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="371.25" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MRzbMmzlFwEHYnvgii7P-5" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=5;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=0;glass=0;dashed=1;strokeColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="192.5" width="500" height="517.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=3;strokeColor=#007FFF;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8SITDAaV5ilEqOeT71zJ-1" target="8SITDAaV5ilEqOeT71zJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-20" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;分发&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SITDAaV5ilEqOeT71zJ-18">
+          <mxGeometry x="0.2362" y="-6" relative="1" as="geometry">
+            <mxPoint x="21" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-1" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;app.get(&quot;/&quot;, funA)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#007FFF;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8SITDAaV5ilEqOeT71zJ-2" target="8SITDAaV5ilEqOeT71zJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-21" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;分发&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SITDAaV5ilEqOeT71zJ-19">
+          <mxGeometry x="0.3882" y="5" relative="1" as="geometry">
+            <mxPoint x="-6" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-2" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;app.post(&quot;/&quot;, funB)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="363" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;strokeColor=#007FFF;" edge="1" parent="1" source="8SITDAaV5ilEqOeT71zJ-3" target="8SITDAaV5ilEqOeT71zJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;分发&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SITDAaV5ilEqOeT71zJ-22">
+          <mxGeometry x="0.2267" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-3" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;app.get(&quot;/user&quot;, funC)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="487" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#007FFF;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8SITDAaV5ilEqOeT71zJ-4" target="8SITDAaV5ilEqOeT71zJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;分发&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SITDAaV5ilEqOeT71zJ-24">
+          <mxGeometry x="0.3049" y="7" relative="1" as="geometry">
+            <mxPoint x="16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-4" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;app.post(&quot;/user&quot;, funD)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=61.42857142857143;endSize=25.928571428571427;strokeWidth=3;dashed=1;width=51.42857142857143;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="230" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-12" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;从&lt;br&gt;上&lt;br&gt;到&lt;br&gt;下&lt;br&gt;进&lt;br&gt;行&lt;br&gt;匹&lt;br&gt;配&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SITDAaV5ilEqOeT71zJ-7">
+          <mxGeometry x="-0.379" y="-6" relative="1" as="geometry">
+            <mxPoint x="4" y="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-14" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;funA(req, res) (/*处理并响应这次请求*/)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="192.5" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-15" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;funB(req, res) (/*处理并响应这次请求*/)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="345" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-16" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;funC(req, res) (/*处理并响应这次请求*/)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="498" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8SITDAaV5ilEqOeT71zJ-17" value="&lt;p style=&quot;line-height: 200%;&quot;&gt;&lt;font size=&quot;1&quot; color=&quot;#333333&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;funD(req, res) (/*处理并响应这次请求*/)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="650" width="450" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
