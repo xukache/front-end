@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <button id="btnGET">GET</button>
+    <button id="btnPOST">POST</button>
+    <button id="btnDELETE">DELETE</button>
+    <button id="btnJSONP">JSONP</button>
+
+    <script>
+      $(function () {
+        // 1. 测试 GET 接口
+        $("#btnGET").on("click", () => {
+          $.ajax({
+            type: "GET",
+            url: "http://127.0.0.1/api/get",
+            data: { name: "zs", age: 20 },
+            success: (res) => {
+              console.log(res);
+            },
+          });
+        });
+
+        // 2. 测试 POST 接口
+        $("#btnPOST").on("click", () => {
+          $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1/api/post",
+            data: { bookname: "西游记", author: "吴承恩" },
+            success: (res) => {
+              console.log(res);
+            },
+          });
+        });
+
+        // 2. 测试 DELETE 接口
+        $("#btnDELETE").on("click", () => {
+          $.ajax({
+            type: "DELETE",
+            url: "http://127.0.0.1/api/delete",
+            data: { bookname: "西游记", author: "吴承恩" },
+            success: (res) => {
+              console.log(res);
+            },
+          });
+        });
+
+        // 3. 测试 JSONP 请求
+        $("#btnJSONP").on("click", () => {
+          $.ajax({
+            method: "GET",
+            url: "http://127.0.0.1/api/jsonp",
+            dataType: "jsonp",
+            success: (res) => {
+              console.log(res);
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

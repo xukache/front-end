@@ -1,0 +1,1 @@
+INSERT INTO users (username, password) values ('tony stark', '098123')
