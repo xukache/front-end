@@ -1,0 +1,50 @@
+<mxfile host="Electron" modified="2023-05-12T02:41:23.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="VoyFJxxFMIyiKVLIX9De" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="s_tYn-QXVGn0XvgGoQwk">
+    <mxGraphModel dx="1686" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="120" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f68329;fontColor=#000000;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="140" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-3" value="&lt;div style=&quot;text-align: left; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;1. 安装第三方 mysql 模块&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;2. 连接到 MySQL 数据库&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 200%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;3. 执行 SQL 语句操作数据库&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-712.5" y="160" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="120" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-5" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;Express项目&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-7" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;MySQL数据库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-352" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;width=24.82758620689655;endSize=9.841379310344827;fillColor=#6aa042;strokeColor=#3A5431;labelBackgroundColor=none;startSize=9.841379310344827;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-538" y="164" as="sourcePoint" />
+            <mxPoint x="-362" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-9" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;建立与 MySQL 数据库的连接&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="4g8pwh4vZMdcd1yBwoGB-8">
+          <mxGeometry x="-0.2021" y="2" relative="1" as="geometry">
+            <mxPoint x="17" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;width=24.82758620689655;endSize=9.841379310344827;fillColor=#3e72c7;strokeColor=#001DBC;labelBackgroundColor=none;startSize=9.841379310344827;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-538" y="240" as="sourcePoint" />
+            <mxPoint x="-362" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4g8pwh4vZMdcd1yBwoGB-11" value="&lt;font size=&quot;1&quot; color=&quot;#ffffff&quot;&gt;&lt;b&gt;执行 SQL 语句操作数据库&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="4g8pwh4vZMdcd1yBwoGB-10">
+          <mxGeometry x="-0.2021" y="2" relative="1" as="geometry">
+            <mxPoint x="17" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
