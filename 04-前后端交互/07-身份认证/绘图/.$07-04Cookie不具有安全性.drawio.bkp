@@ -1,0 +1,68 @@
+<mxfile host="Electron" modified="2023-05-14T06:53:02.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="BSp3aO6Vwq5JLDvq7ucU" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="syCugjobdyrzji9kPTb7">
+    <mxGraphModel dx="898" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="ZKAVJT-u_KZrbay16dLL-1" target="ZKAVJT-u_KZrbay16dLL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-1" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;客户1&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#FF0000;" parent="1" source="ZKAVJT-u_KZrbay16dLL-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6p81XY9Wlr8dNhEtsSk-1" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px;&quot;&gt;出示会员卡&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZKAVJT-u_KZrbay16dLL-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.3299" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-2" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;客户2&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="200" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="ZKAVJT-u_KZrbay16dLL-3" target="ZKAVJT-u_KZrbay16dLL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-3" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;客户3&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="ZKAVJT-u_KZrbay16dLL-4" target="ZKAVJT-u_KZrbay16dLL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-4" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;客户1&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZKAVJT-u_KZrbay16dLL-5" target="ZKAVJT-u_KZrbay16dLL-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-5" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;客户2&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="680" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF0000;" parent="1" source="ZKAVJT-u_KZrbay16dLL-6" target="ZKAVJT-u_KZrbay16dLL-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6p81XY9Wlr8dNhEtsSk-2" value="&lt;font size=&quot;1&quot; color=&quot;#ff0000&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;出示会员卡&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZKAVJT-u_KZrbay16dLL-13" vertex="1" connectable="0">
+          <mxGeometry x="0.2259" relative="1" as="geometry">
+            <mxPoint x="12" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-6" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;客户3&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="680" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-7" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;超市&lt;br&gt;收银员&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;strokeColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="460" y="285" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKAVJT-u_KZrbay16dLL-14" value="&lt;b&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 16px;&quot;&gt;通过会员卡&lt;br&gt;辨别用户的VIP身份&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="460" width="380" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
