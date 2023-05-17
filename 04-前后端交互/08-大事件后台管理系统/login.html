@@ -6,5 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- 头部的 logo 区域 -->
+    <div class="layui-main">
+      <img src="./assets/images/logo.png" alt="" />
+    </div>
+
+    <!-- 登录注册区域 -->
+    <div class="loginAndRegBox">
+      <div class="title-box"></div>
+      <!-- 登录窗口 -->
+      <div class="login-box">
+        <!-- 登录表单 -->
+        <form class="layui-form" action="">
+          <!-- 用户名 -->
+          <div class="layui-form-item">
+            <input
+              type="text"
+              name="title"
+              required
+              lay-verify="required"
+              placeholder="请输入标题"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </div>
+          <!-- 密码 -->
+          <div class="layui-form-item">
+            <input
+              type="text"
+              name="title"
+              required
+              lay-verify="required"
+              placeholder="请输入标题"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </div>
+        </form>
+        <a href="javascript:;" id="link_reg">注册账号</a>
+      </div>
+      <!-- 注册窗口 -->
+      <div class="reg-box">
+        <a href="javascript:;" id="link_login">登录</a>
+      </div>
+    </div>
+
+    <!-- 导入 jQuery  -->
+    <script src="./assets/lib/jquery.js"></script>
+    <!-- 导入自定义js脚本 -->
+    <script src="./assets/js/login.js"></script>
+  </body>
 </html>
