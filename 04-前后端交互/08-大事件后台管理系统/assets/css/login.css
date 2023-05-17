@@ -1,0 +1,62 @@
+/* 初始配置，清除默认样式 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /* 设置背景图片 */
+  background: url(../images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* 登录注册区域 */
+.loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginAndRegBox .title-box {
+  height: 60px;
+  background: url(../images/login_title.png) no-repeat center;
+}
+
+/* 登录界面默认隐藏注册页面 */
+.loginAndRegBox .reg-box {
+  display: none;
+}
+
+/* 登录表单 */
+.layui-form {
+    padding: 0 30px;
+}
+
+/* 切换选项 */
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+/* 文本框图标 */
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
