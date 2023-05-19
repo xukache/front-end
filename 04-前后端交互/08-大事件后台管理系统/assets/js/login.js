@@ -26,4 +26,22 @@ $(function () {
       }
     },
   });
+
+  // 监听注册表单的提交事件
+  $("#form-reg").on("submit", (e) => {
+    e.preventDefault();
+    $.post(
+      "http://www.liulongbin.top:3007/api/reguser",
+      {
+        username: $('#form_reg [name=username]').val(),
+        password: $('#form_reg [name=password]').val(),
+      },
+      (res) => {
+        if (res.status !== 0) {
+          return console.log(res.message);
+        }
+        console.log('注册成功！');
+      }
+    );
+  });
 });

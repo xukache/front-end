@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据绑定</title>
+    <!-- 避免浏览器出现找不到 favicon 问题 -->
+    <link rel="shortcut icon" href="#" />
+    <!--引入 Vue  -->
+    <script src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 准备一个容器 -->
+    <div id="root">
+      单向数据绑定：<input type="text" v-bind:value="name" />
+      <br />
+      双向数据绑定：<input type="text" v-model:value="name" />
+      <br>
+      <!-- 如下代码是错误的，因为 v-model 只能应用在表单类元素(输入类元素)上 -->
+      <h2 v-model:x="name">你好啊</h2>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    // 阻止 Vue 在启动时生成生产提示
+    Vue.config.productionTip = false;
+
+    new Vue({
+      el: "#root",
+      data: {
+        name: "kacheX",
+      },
+    });
+  </script>
+</html>
