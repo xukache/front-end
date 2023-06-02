@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "then-fs": "^2.0.0"
+  }
+}
